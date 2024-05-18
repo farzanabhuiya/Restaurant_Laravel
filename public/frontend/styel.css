@@ -1,0 +1,1211 @@
+*{
+	margin: 0px;
+	font-family: century gothic;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+/*--------------menu-container---------------*/
+
+body
+{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar
+{
+    background-color: white;
+ 
+
+
+}
+
+.brand-navbar{
+	color:#c79406 ;
+	/* color: #eeb006; */
+	font-weight: bold;
+	font-size: 40px;
+	margin-left: 80px;
+}
+
+.navbar ul
+{
+padding: 0px 40px 0px 0px;
+}
+.navbar ul li a{
+    color: black;
+    font-weight: bold;
+    margin: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar ul li a .fas{
+    padding-right:5px; 
+    padding-left:5px; 
+}
+.navbar ul li a:hover{
+    color: #eeb006;
+}
+.navbar ul li.active > a {
+    color: #eeb006;
+    font-weight: bold;
+    font-size: 15px;
+    /*border-left: 3px solid #15b000;*/
+    border-radius: 40px;
+   
+}
+
+
+/*=====================================Slier============================================*/
+
+/*=====================================Slier============================================*/
+
+
+
+/*--------------FreshFood-----------*/
+
+
+.food{
+	width: 100%;
+	height: 110vh;
+	background: url(img/restu1.jpg);
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.d1 {
+	width: 45%;
+	height: 55vh;
+
+  background: rgba(156, 136, 136, 0.795);
+  margin: 200px 100px 100px 370px;
+}
+
+.d1 h2{
+	font-size: 50px;
+	font-weight: bold;
+	/* color: #463402; */
+	color: rgb(24, 23, 23);
+	font-family: Rockwell;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	
+}
+
+.d1 p{
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(48, 47, 47);
+	font-family: Rockwell;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+.farz{
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+	box-shadow: 0px 0px 6px gray;
+background: white;
+	/*margin-left: 20px;*/
+	margin-top: 20px;
+	margin-left: 220px;
+	border-radius: 33px;
+
+	} 
+
+  .farz:hover{
+     	background: blue;
+     	cursor: copy;
+     }
+
+.farz a {
+		text-decoration: none;
+		color: black;
+	}
+ .farz:hover a{
+		color: rgb(241, 236, 236);
+      }
+
+ .font{
+ 	font-size: 20px;
+ } 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.food{
+	width: 100%;
+	height: 700px;
+	background: url(img/restu1.jpg);
+	
+	
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+  padding: 200px 30px 100px 0px;
+
+}
+
+
+
+
+.d1 h2{
+	font-size: 60px;
+	font-weight: bold;
+	color: green;
+	/*color: #4de25e;*/
+	/* margin-left:320px;
+	text-align: center; */
+	/*padding-top: 190px;*/
+	/* margin-bottom: 15px; */
+
+	
+	
+/* }
+.d1 h2 span{
+	color: #030303;
+	font-weight: bold;
+}
+.d1 p{
+	font-size: 18px;
+	font-weight: bold;
+	color:rgb(22, 22, 22);
+	text-align: center;
+	margin-left: 320px;
+
+	
+
+
+}
+.d2{
+width: 35%;
+height: 650px; */
+
+/* }
+.d2 img{
+	width: 550px;
+	height: 700px;
+
+ margin-top: -20px;
+ margin-bottom: 0px;
+ position: absolute;
+
+}
+
+
+
+.buttonn{
+	width: 150px;
+	height: 45px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4de25e;
+	border: none;
+	 border: 2px solid #4de25e;
+	background: white;
+	/*margin-left: 45px;*/
+	/* margin-top: 15px;
+	border-radius: 33px;
+	margin-left: 420px;
+
+
+
+	} */
+
+  /* .buttonn:hover{
+     	background: blue;
+     	cursor: copy;
+     }
+
+.buttonn a {
+		text-decoration: none;
+		color: #4de25e;
+	}
+ .buttonn:hover a{
+		color: white;
+      }
+
+ .font{
+ 	font-size: 20px;
+ }
+  .buttonn i{
+  	font-size: 20px;
+ 	color: white;
+ 	margin-right: 7px;
+ } */
+ 
+
+
+
+
+      /*-------------we create delicious-------*/
+
+
+.box{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	background: ghostwhite;
+
+}
+.d3{
+	width: 50%;
+	height: 600px;
+	margin-top: 100px;
+}
+.d3 img{
+	width: 600px;
+	height: 400px;
+	margin-left: 150px;
+	border-radius: 7px;
+	background-size: cover;
+}
+
+.d4{
+	width: 47%;
+	height: 600px;
+	margin-top: 100px;
+}
+.d5{
+	width: 600px;
+	height: 200px;
+	background: rgb(238, 237, 237);
+	margin-left: -60px;
+	margin-top: 100px;
+	text-align: center;
+	padding: 30px 0px 50px 0px;
+	border-radius: 12px;
+}
+.d5 h2{
+	font-size: 35px;
+	color: rgb(90, 90, 90);
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.d5 p{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color:  rgb(136, 135, 135);
+
+}
+.d5 h2 span{
+	color: #3CCF4E;
+}
+
+
+
+
+ /*-------------BOX1---------------*/
+/*-----------------whet will you----*/
+
+
+.box1{
+	width: 100%;
+	height: 850px;
+	background: url(img/food15.webp);
+ background-size: cover;
+	flex-wrap: wrap;
+	display: flex;
+
+	
+   
+}
+.d6{
+	width: 850px;
+	height: 750px;
+	background: white;
+	margin: 50px 150px 50px 250px ;
+   border-radius: 12px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   padding: 0px 60px 0px 90px;
+   
+
+}
+.you h2{
+	font-size: 35px;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 80px;
+	
+}
+
+.d6 h2 span{
+	color: #3CCF4E;
+}
+
+
+.you p{
+	font-size: 16px;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+
+.d6 img{
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	
+	/*margin-left: 50px;*/
+	margin-bottom: 60px;
+	border-radius: 12px;}
+
+   .r1{width: 200px;
+	height: 50px;
+	margin-left: 10px;
+	background: rgb(242, 253, 239);
+	margin-top: -60px;
+	border-radius: 9px;
+
+   }
+	.r1 h2{
+		font-size: 25px;
+		font-weight: bold;
+		color: black;
+		margin-left: 30px;
+	
+	
+		
+		
+		
+	}
+	.h2 span{
+		color: #3CCF4E;
+		font-weight: bold;
+		
+	}
+
+	
+
+
+
+/*-------------cooking5----------------*/
+
+.box100{
+	width: 90%;
+	height: 150px;
+}
+.box100 h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(90, 90, 90);
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 80px;
+	margin-left: 150px;
+}
+.box100 p{
+	font-size: 18px;
+	font-family:century gothic;;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+	margin-left: 100px;
+	
+}
+
+.cooking5{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	margin-top: -70px;
+}
+.bor111{
+	width: 45%;
+	width: 300px;
+	margin-left: 180px;
+	margin-top: 100px;
+	/* margin-top: 550px; */
+}
+.bor111 img{
+	width: 450px;
+	height: 300px;
+	background-size: cover;
+}
+.bor111 h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-top: -240px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.bor111 h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-left: 60px;
+
+}
+
+.bot{
+	width: 110px;
+	height: 60px;
+	font-size: 16px;
+	border: none;
+	box-shadow: 0px 0px 6px gray;
+     background:white;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 33px;
+
+	}
+
+.bot a {
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+	}
+
+
+
+
+
+
+
+.bor112{
+	width: 42%;
+	width: 300px;
+	margin-left: 170px;
+	margin-top: 550px;
+}
+.bor112 img{
+	width: 450px;
+	height: 298px;
+	background-size: cover;
+}
+
+.bor112 h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-top: -230px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.bor112 h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-left: 60px;
+
+}
+
+.bot{
+	width: 110px;
+	height: 60px;
+	font-size: 16px;
+	border: none;
+	box-shadow: 0px 0px 6px gray;
+     background:white;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 33px;
+
+	}
+
+.bot a {
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+	}
+
+
+
+
+.bor113{
+	width: 42%;
+	width: 300px;
+	margin-top: 90px;
+	margin-left: 220px;
+	
+}
+.bor113 img{
+	width: 450px;
+	height: 300px;
+	background-size: cover;
+}
+
+.bor113 h2{
+	font-size: 25px;
+	font-weight: bold;
+	color:white;
+	margin-top: -230px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.bor113 h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-left: 60px;
+
+}
+
+.bot{
+	width: 110px;
+	height: 60px;
+	font-size: 16px;
+	border: none;
+	box-shadow: 0px 0px 6px gray;
+     background:black;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 33px;
+
+	}
+
+.bot a {
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+
+
+
+.bor114{
+	width: 42%;
+	width: 300px;
+	margin-left: 170px;
+		margin-top: 90px;
+}
+.bor114 img{
+	width: 450px;
+	height: 300px;
+	background-size: cover;
+}
+
+
+.bor114 h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-top: -230px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.bor114 h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-left: 60px;
+
+}
+
+.bot{
+	width: 110px;
+	height: 60px;
+	font-size: 18px;
+	border: none;
+	box-shadow: 0px 0px 6px gray;
+     background:black;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 33px;
+
+	}
+
+.bot a {
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+
+
+
+.bor115{
+	width: 42%;
+	width: 300px;
+	margin-left: 220px;
+		margin-top: 90px;
+}
+.bor115 img{
+	width: 450px;
+	height: 300px;
+	background-size: cover;
+}
+.bor115 h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-top: -230px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.bor115 h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-left: 60px;
+
+}
+
+.bot{
+	width: 110px;
+	height: 60px;
+	font-size: 18px;
+	border: none;
+	box-shadow: 0px 0px 6px gray;
+     background:black;
+	/*margin-left: 20px;*/
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 33px;
+
+	}
+
+.bot a {
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+
+
+
+
+.bor116{
+	width: 42%;
+	width: 300px;
+	margin-left: 170px;
+		margin-top: 90px;
+}
+.bor116 img{
+	width: 450px;
+	height: 300px;
+	background-size: cover;
+}
+
+.bor116 h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-top: -230px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.bor116 h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-left: 60px;
+
+}
+
+.bot{
+	width: 110px;
+	height: 60px;
+	font-size: 18px;
+	border: none;
+	box-shadow: 0px 0px 6px gray;
+     background:white;
+	/*margin-left: 20px;*/
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 33px;
+
+	}
+
+.bot a {
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+	}
+
+/*-------Meat with vegetable salad--------------*/
+
+.box2{
+	width: 100%;
+	height: 600px;
+	/*background:#4de25e ;*/
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 80px;
+
+}
+
+.box3{
+	width: 990px;
+	height: 500px;
+	background: white;
+	margin: 100px 150px 100px 180px;
+	box-shadow: 0px 0px 10px gray;
+
+}
+.d7{
+	width: 400px;
+	height: 500px;
+	background: #cfcd3c;
+}
+.d7 img{
+	width: 270px;
+	height: 270px;
+	background-size: cover;
+	border-radius: 50%;
+	margin: 120px 0px 210px 240px;
+	 border: 20px solid #cfcd3c;
+
+
+}
+.d8{
+	width: 590px;
+	height: 370px;
+	background: white;
+	margin-top: -500px;
+	margin-left: 400px;
+}
+.d9{
+	width: 450px;
+	height: 80px;
+	background: #cfcd3c;
+	margin: 130px 0px 100px 140px;
+    border-radius: 50px 0px 0px 50px;
+
+}
+.d9 h2{
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	margin-left: 50px;
+	padding: 25px;
+}
+.d8 p{
+	font-size: 17px;
+	font-weight: bold;
+	color: gray;
+	margin-left: 130px;
+	margin-top: -70px;
+
+}
+
+
+
+
+
+
+/*-----------------juico------->*/
+
+
+.juico{
+	width: 100%;
+	height: 500px;
+	background: ghostwhite;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+.d10{
+	width: 80%;
+	height: 140px;
+
+}
+
+.d10 h2{
+	font-size: 35px;
+	font-weight: bold;
+	color: gray;
+	margin-left: 180px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.d10 h2 span{
+	color: #3CCF4E;
+	font-weight: bold;
+}
+.d10 p{
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+  margin-left: 180px;
+
+}
+
+.d11{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	margin-left: 150px;
+}
+.d11 div img{
+	width: 220px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 11px;
+}
+.d11 div h2{
+	font-size: 23px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+	margin-left: 30px;
+
+}
+.d11 div h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #3CCF4E;
+		margin-left: 30px;
+}
+.d11 div p{
+	font-size: 16px;
+	font-weight: bold;
+	color: gray;
+		margin-left: 30px;
+	
+}
+
+
+
+
+
+ /*-- Fresh Vegetables----------*/
+
+.vegetable{
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-wrap: wrap;
+	background: white;
+	
+}
+.ddd{
+	width: 100%;
+	height: 80px;
+	background: white;
+	text-align: center;
+	margin-top: 30px;
+}
+.ddd h1{
+   font-size: 35px;
+   font-weight: bold;
+   color:gray;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.ddd h1 span{
+	color: #3CCF4E;
+	font-weight: bold;
+}
+
+
+.d12{
+	width: 35%;
+	height: 300px;
+	background: white;
+	margin-left: 170px;
+	margin-top: 20px;
+	
+}
+
+
+.d12 h2{
+	font-size: 25px;
+	font-weight: bold;
+	color:  #3CCF4E;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+.d12 p{
+	font-size: 17px;
+	font-weight: bold;
+	color: gray;
+	margin-left: 10PX;
+
+
+}
+
+
+
+.d13 img{
+	width: 550px;
+	height: 300px;
+	background-size: cover;
+	margin-top: 40px;
+
+
+}
+.d14 img{
+	width:630px ;
+	height: 300px;
+	background-size: cover;
+	margin-left: 170px;
+	margin-top: -145px;
+	/*margin-top: 80px;*/
+}
+
+
+
+
+
+
+
+
+/* footer sec start */
+
+.footer-sec{
+  width: 100%;
+  height: 450px;
+ background: url(img/food23.jpeg);
+  background-size: cover;
+background-color: #363636;
+  margin-top: 70px;
+
+
+}
+
+.logo2{
+  margin-top: 70px;
+  width: 280px;
+  height: 220px;
+  background: transparent;
+  text-align: justify;
+  margin-left: 70px;
+  float: left;
+}
+.logo2 h1{
+  font-size: 35px;
+  color:  #eeb006;
+  font-weight: bold;
+}
+.logo2 p{
+  font-size: 16px;
+ 
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.logo2 a{
+  text-decoration: none;
+  color: white;
+
+ 
+
+}
+.logo2 a:hover i{
+  background: black;
+  color: white;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.logo2 i{
+  font-size: 25px;
+  text-align: center;
+  margin: 30px 10px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  
+  transition: 1s;
+  border-radius: 50%;
+  color: white;
+}
+
+
+.resource{
+  float: left;
+  margin-top: 80px;
+  width: 250px;
+  height: 220px;
+  background: transparent;
+  text-align: justify;
+  margin-left: 60px;
+}
+
+.resource h1{
+  font-size: 25px;
+   color:  #eeb006;
+  font-weight: bold;
+}
+.resource ul{
+  margin-top: 15px;
+}
+.resource li{
+  list-style: none;
+  margin-top: 15px;
+  transition: 1s;
+}
+.resource li:hover{
+  transform: translateX(10px);
+  transition: 1s;
+}
+.resource li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}
+
+
+
+
+
+.company{
+  float: left;
+  margin-top: 80px;
+  width: 250px;
+  height: 220px;
+  background: transparent;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.company h1{
+  font-size: 25px;
+   color: #eeb006;
+  font-weight: bold;
+}
+.company ul{
+  margin-top: 15px;
+
+}
+.company li{
+	
+  list-style: none;
+  margin-top: 15px;
+  transition: 1s;
+}
+.company li:hover{
+  transform: translateX(10px);
+  transition: 1s;
+}
+.company li a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  
+}
+
+
+
+
+.location{
+  float: left;
+  margin-top: 80px;
+  width: 250px;
+  height: 220px;
+  background: transparent;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.location h1{
+  font-size: 25px;
+   color:  #eeb006;
+  font-weight: bold;
+}
+.location ul{
+  margin-top: 15px;
+}
+.location li{
+  list-style: none;
+  margin-top: 24px;
+  transition: 1s;
+}
+.location li:hover{
+  transform: translateX(10px);
+  transition: 1s;
+}
+.location li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}
+
+
+
+
+
+
+.copy-rght {
+  width: 100%;
+  height: 70px;
+   /*background: ghostwhite;*/
+  text-align: center;
+  margin-top: -100px;
+}
+
+
+.copy-rght hr {
+  width: 90%;
+  margin-left: 70px;
+  background: white;
+}
+.copy-rght p {
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.copy-rght p span {
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+ 
+}
+.copy-rght p span:hover{
+  color: white;
+}
+/* footer sec end */
+/* footer sec end */
